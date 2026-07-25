@@ -6,6 +6,10 @@ The API allows users to register, log in using JWT authentication, create bank a
 
 Every transaction creates corresponding debit and credit ledger entries, ensuring financial consistency through MongoDB ACID transactions.
 
+## 🌐 Live Demo
+
+**Base URL:** https://paisewale-bank.onrender.com/
+
 ## ✨ Features
 
 - User registration with welcome email

@@ -12,7 +12,9 @@ const transactionRoutes = require("./routes/transaction.routes");
 app.use(express.json());
 app.use(cookieParser());
 
-
+app.get("/", (req, res)=>{
+    res.send("Server is Running!")
+})
 /** -Use Routes */
 app.use("/api/auth", authRouter);
 app.use("/api/accounts", accountRouter)
